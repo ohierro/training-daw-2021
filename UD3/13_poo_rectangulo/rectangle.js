@@ -13,6 +13,14 @@ class Rectangle {
     // area
 
     // overlay
+    // tenemos que comprobar la siguiente situación
+    // .x----------x.....
+    // .|..........|.....
+    // .|......x---|----x
+    // .x------|---x....|
+    // ........x--------x
+    // Se superponen si alguna de sus coordenadas están dentro de los límites
+    // del otro rectángulo
 }
 
 let r1 = new Rectangle(5,9);
