@@ -21,5 +21,5 @@ class Triangle extends Figure {
 }
 
 
-let draws = [new Figure(), new Square(), new Circle(), new Triangle()]
+let draws = [new Figure(3,4), new Square(7,8,9,9), new Circle(4,5,7), new Triangle(2,3,2,4)]
 draws.forEach(f => f.print())
